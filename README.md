@@ -1,4 +1,3 @@
-
 # Personal Finance Tracker Web App
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -43,15 +42,15 @@ Key functionalities include:
 ## Screenshots
 
 **Login Page**  
-![Login Page](screenshots/login.png)  
+![Login Page](1(1).png)  
 
 **Dashboard / Transactions Overview**  
-![Dashboard](screenshots/dashboard.png)  
+![Dashboard](1(2).png)  
 
 **Add Transaction Form**  
-![Add Transaction](screenshots/add_transaction.png)  
+![Add Transaction](1(3).png)  
 
-> *Replace the images in `screenshots/` folder with your actual screenshots.*
+> *Create a folder named `screenshots` in the root of your repo and upload your images there. Replace the placeholders with actual screenshots.*
 
 ---
 
@@ -59,12 +58,12 @@ Key functionalities include:
 
 ```mermaid
 flowchart TD
-    A[User Interface (HTML/CSS)] --> B[Flask Backend]
-    B --> C1[User Authentication Module]
-    B --> C2[Transaction CRUD Module]
-    B --> C3[RESTful API Endpoints]
-    C1 --> D[MySQL Users Table]
-    C2 --> D[MySQL Transactions Table]
-    C3 --> D[MySQL Database]
-    D --> B
-    B --> A[UI Response / Dashboard Update]
+    UI[UI - HTML/CSS] --> FLASK[Flask Backend]
+    FLASK --> AUTH[User Auth Module]
+    FLASK --> CRUD[Transaction CRUD Module]
+    FLASK --> API[REST API Endpoints]
+    AUTH --> DB_USERS[MySQL Users Table]
+    CRUD --> DB_TRANSACTIONS[MySQL Transactions Table]
+    API --> DB[MySQL Database]
+    DB --> FLASK
+    FLASK --> UI
