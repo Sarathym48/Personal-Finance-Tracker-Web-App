@@ -42,13 +42,13 @@ Key functionalities include:
 ## Screenshots
 
 **Login Page**  
-![Login Page](1 (1).png)  
+![Login Page](screenshots.png)  
 
 **Dashboard / Transactions Overview**  
-![Dashboard](1 (2).png)  
+![Dashboard](screenshots.png)  
 
 **Add Transaction Form**  
-![Add Transaction](1 (3).png)  
+![Add Transaction](screenshots.png)  
 
 > *Create a folder named `screenshots` in the root of your repo and upload your images there. Replace the placeholders with actual screenshots.*
 
