@@ -68,7 +68,4 @@ flowchart TD
     DB --> FLASK
     FLASK --> UI
 
-## License
-
-This project is **open-source** under the **MIT License**.
 
